@@ -3,7 +3,7 @@ title: blur
 slug: Web/API/Element/blur_event
 ---
 
-`blur` 이벤트는 엘리먼트의 포커스가 해제되었을때 발생합니다. 이 이벤트와 [`focusout`](/ko/docs/Mozilla_event_reference/focusout) 이벤트의 가장 다른점은 [`focusout`](/ko/docs/Mozilla_event_reference/focusout) 은 이벤트 버블링이 발생합니다.
+`blur` 이벤트는 엘리먼트의 포커스가 해제되었을때 발생합니다. 이 이벤트와 [`focusout`](/ko/docs/Mozilla_event_reference/focusout) 이벤트의 가장 다른점은 [`focusout`](/ko/docs/Mozilla_event_reference/focusout) 은 이벤트 버블링이 발생한다는 점 입니다.
 
 ## General info
 
@@ -34,7 +34,7 @@ slug: Web/API/Element/blur_event
 
 ## 이벤트 위임
 
-이 이벤트에 이벤트 위임을 적용하는 방법은 두가지가 있습니다 : 브라우저가 지원한다면 `focusout` 이벤트를 사용하거나, [`addEventListener`](/ko/docs/DOM/element.addEventListener)의 "useCapture" 파라미터를 `true`로 설정하세요:
+이 이벤트에 이벤트 위임을 적용하는 방법은 두가지가 있습니다 : 브라우저가 지원한다면 `focusout` 이벤트를 사용하거나, [`addEventListener`](/ko/docs/DOM/element.addEventListener)의 "useCapture" 파라미터를 `true`로 설정해주십시오.
 
 ### HTML Content
 
